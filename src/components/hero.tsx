@@ -42,7 +42,7 @@ export default async function Hero() {
         {portfolioConfig.tagline} <span className="sr-only">tagline</span>
       </h3>
 <p className="my-6 max-w-2xl text-foreground/80">
-  20yo, CSE Student (05'27). I&apos;m a Full Stack Developer &amp; Smart Contract Engineer.
+  20yo, CSE Student (05&apos;27). I&apos;m a Full Stack Developer &amp; Smart Contract Engineer.
 Lately, I&apos;ve been working on
 {' '}
   <Glimpse closeDelay={0} openDelay={0}>
