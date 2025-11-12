@@ -2,16 +2,16 @@
 <rss version="2.0">
     <channel>
         <title>Blogs</title>
-        <link>https://dev.gxuri.in</link>
-        <description>Hey! I am Gxuri, and its my personal blog where I share my learnings, experiences, and thoughts on different topics. I mostly talk about tech, but I don't have any specific niche.  I write about whatever I find interesting. I hope you will find my blogs helpful. Happy reading!</description>
-        <lastBuildDate>Sat, 15 Mar 2025 14:11:35 GMT</lastBuildDate>
+        <link>https://shaahid.xyz</link>
+        <description>Hey! I am shaahid a 20yo CSE student trying to make cool stuff and documenting it to share with people. Happy reading!</description>
+        <lastBuildDate>Wed, 12 Nov 2025 19:10:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>Blogs</title>
-            <url>https://dev.gxuri.in/logo.png</url>
-            <link>https://dev.gxuri.in</link>
+            <url>https://shaahid.x/logo.png</url>
+            <link>https://shaahid.xyz</link>
         </image>
-        <copyright>All rights reserved 2025, Gxuri</copyright>
+        <copyright>All rights reserved 2025, shaahid</copyright>
     </channel>
 </rss>

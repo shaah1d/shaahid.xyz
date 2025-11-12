@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Blogs",
-    "home_page_url": "https://dev.gxuri.in",
-    "feed_url": "https://dev.gxuri.in/rss.json",
-    "description": "Hey! I am Gxuri, and its my personal blog where I share my learnings, experiences, and thoughts on different topics. I mostly talk about tech, but I don't have any specific niche.  I write about whatever I find interesting. I hope you will find my blogs helpful. Happy reading!",
-    "icon": "https://dev.gxuri.in/logo.png",
+    "home_page_url": "https://shaahid.xyz",
+    "feed_url": "https://shaahid.xyz/rss.json",
+    "description": "Hey! I am shaahid a 20yo CSE student trying to make cool stuff and documenting it to share with people. Happy reading!",
+    "icon": "https://shaahid.xyz/logo.png",
     "items": []
 }

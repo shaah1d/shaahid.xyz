@@ -13,13 +13,14 @@ export const skillsConfig = [
     technologies: [
       "Node.js",
       "Express",
-      "Prisma",
+   
     ],
   },
   {
     category: "Database",
     technologies: [
       "MongoDB",
+      "PostgreSql"
     ],
   },
   {
@@ -34,6 +35,8 @@ export const skillsConfig = [
     technologies: [
       "Git",
       "Vercel",
+      "Docker",
+      "kubernetes"
     ],
   },
   {
@@ -42,6 +45,7 @@ export const skillsConfig = [
       "AI RAG",
       "Vector Embeddings",
       "Pinecone",
+      "LangChain"
     ],
   },
   {

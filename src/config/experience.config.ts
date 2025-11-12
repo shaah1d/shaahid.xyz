@@ -2,17 +2,17 @@ import type { Experience } from "@/types";
 
 export const experiencesConfig: Experience[] = [
   {
-    title: "WebDeveloper Developer",
-    employmentType: "Project",
+    title: "Web Developer",
+    employmentType: "Freelance",
     company: {
-      name: "NoCode Model Builder",
-      url: "#",
+      name: "Gemveda",
+      url: "https://gemveda.ind.in",
     },
     location: {
       name: "Remote",
     }, 
-    start: "February 2025",
-    end: "April 2025",
+    start: "November 2025",
+    end: "December 2025",
    description: [
 "Developed a no-code AI platform for automated dataset preprocessing and ML model training",
 "Built a responsive web interface using Next.js, TypeScript, and Tailwind CSS",

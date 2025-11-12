@@ -18,7 +18,7 @@ import { glimpse } from '@/components/ui/kibo-ui/glimpse/server';
 
 
 export default async function Hero() {
-    const data = await glimpse('https://kuesuto.vercel.app/');
+    const data = await glimpse('https://manifestbyshaahid.vercel.app/');
 
   return (
     <section className="w-full flex flex-col lg:min-h-[calc(100vh-7rem)]">
@@ -30,7 +30,7 @@ export default async function Hero() {
         <div className="flex items-center gap-2">
           <Button size="icon" variant="ghost" className="rounded-full" asChild>
             {/* TODO: add rss feed */}
-            <Link href="#">
+            <Link href="/rss.xml">
               <Rss size={18} />
               <span className="sr-only">rss feed</span>
             </Link>
@@ -41,33 +41,28 @@ export default async function Hero() {
       <h3 className="mt-2 text-lg">
         {portfolioConfig.tagline} <span className="sr-only">tagline</span>
       </h3>
-      <p className="my-6 max-w-2xl text-foreground/80">
-  Hey 👋 I&apos;m Shaahid Shaikh — online I go by{" "}
-  <span className="text-foreground font-semibold">shaah1d</span>. I&apos;m a{" "}
-  <a href="#" className="text-foreground font-semibold hover:underline">
-    full-stack generalist
-  </a>{" "}
-  who builds with web, AI, blockchain systems.
-  I&apos;ve shipped projects like{" "}
+<p className="my-6 max-w-2xl text-foreground/80">
+  20yo, CSE Student (05'27). I'm a Full Stack Developer & Smart Contract Engineer.
+  Lately, I've been working on{' '}
   <Glimpse closeDelay={0} openDelay={0}>
-        <GlimpseTrigger asChild>
-          <a
-            className="font-medium text-primary underline"
-            href="https://github.com/shaah1d/Kuesuto"
-          >
-            Kuesuto
-          </a>
-        </GlimpseTrigger>
-        <GlimpseContent className="w-80">
-          <GlimpseImage src={data.image ?? ''} />
-          <GlimpseTitle>{data.title}</GlimpseTitle>
-          <GlimpseDescription>{data.description}</GlimpseDescription>
-        </GlimpseContent>
-      </Glimpse>{' '}
-  (an AI quiz generator), a no-code AI builder, and a provably fair decentralized raffle.
-  I care about performance, modern UI, and solving real-world problems with elegant code.
-  <span className="sr-only">bio</span>
+    <GlimpseTrigger asChild>
+      <a
+        className="font-medium text-primary underline"
+        href="https://manifestbyshaahid.vercel.app"
+      >
+        Kolophon
+      </a>
+    </GlimpseTrigger>
+    <GlimpseContent className="w-80">
+      <GlimpseImage src={data.image ?? '/kolophon.png'} />
+      <GlimpseTitle>{data.title}</GlimpseTitle>
+      <GlimpseDescription>{data.description}</GlimpseDescription>
+    </GlimpseContent>
+  </Glimpse>{' '}
+  — a fast growing, plug and play AI agent system for businesses.
+ I design and develop full-stack web apps with seamless UI and secure smart contracts. my focus: products that look great and work even better.
 </p>
+
 
       <Socials />
       <div className="hidden md:flex flex-col text-sm space-y-2 rounded max-w-2xl text-foreground/70 my-7">
