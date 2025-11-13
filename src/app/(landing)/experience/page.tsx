@@ -78,6 +78,11 @@ const Experience = ({ experience }: { experience: ExperienceType }) => {
           >
             {experience.company.name}
           </a>
+            {experience.status && (
+            <span className="text-xs px-2 py-1 bg-secondary rounded cursor-default">
+            {experience.status}
+          </span>
+          )}
           <span className="text-xs px-2 py-1 bg-secondary rounded cursor-default">
             {experience.employmentType}
           </span>

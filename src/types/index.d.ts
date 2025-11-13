@@ -42,6 +42,7 @@ export type Experience = {
   start: string;
   end: string;
   description: string[];
+  status?: string;
 };
 
 export type NavItem = {

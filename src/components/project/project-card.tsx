@@ -1,17 +1,33 @@
+"use client"
+
 import { projects } from "#velite";
 import { StepForward } from "lucide-react";
 import Link from "next/link";
 import Picture from "@/components/picture";
 import { IconMap } from "@/components/icon-map";
 import { z } from "velite";
+import { useRef, useEffect } from "react";
 
 type ProjectCardProps = {
   project: z.infer<typeof projects.schema>;
 };
 
 export default function ProjectCard({ project }: ProjectCardProps) {
+ const popRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    const audio = new Audio("/pop.mp3");
+    audio.volume = 0.2;
+    popRef.current = audio;
+  }, []);
+
+  const playPop = () => {
+    popRef.current?.play().catch(() => {});
+  };
   return (
-    <div className="flex p-3 justify-between gap-2 rounded-xl border overflow-hidden">
+    <div className="flex p-3 justify-between gap-2 rounded-xl border overflow-hidden" 
+    onMouseEnter={playPop}
+      onClick={playPop}>
       <div className="space-y-2 w-full tablet:w-3/5">
         <Link href={`/projects/${project.slugAsParams}`} className="space-y-2 group/link">
           <div className="inline-flex items-center gap-1">

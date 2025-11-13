@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://dev.gxuri.in</id>
+    <id>https://shaahid.xyz</id>
     <title>Blogs</title>
-    <updated>2025-03-15T14:11:35.191Z</updated>
+    <updated>2025-11-13T14:11:35.191Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://dev.gxuri.in"/>
-    <link rel="self" href="https://dev.gxuri.in/atom.xml"/>
-    <subtitle>Hey! I am Gxuri, and its my personal blog where I share my learnings, experiences, and thoughts on different topics. I mostly talk about tech, but I don't have any specific niche.  I write about whatever I find interesting. I hope you will find my blogs helpful. Happy reading!</subtitle>
-    <logo>https://dev.gxuri.in/logo.png</logo>
-    <icon>https://dev.gxuri.in/favicon.png</icon>
-    <rights>All rights reserved 2025, Gxuri</rights>
+    <link rel="alternate" href="https://shaahid.xyz"/>
+    <link rel="self" href="https://shaahid.xyz/atom.xml"/>
+    <subtitle>Hey! I am shaahid a 20yo CSE student trying to make cool stuff and documenting it to share with people. Happy reading!</subtitle>
+    <logo>https://shaahid.xyz/logo.png</logo>
+    <icon>https://shaahid.xyz/favicon.ico</icon>
+    <rights>All rights reserved 2025, shaahid</rights>
 </feed>

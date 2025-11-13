@@ -14,11 +14,10 @@ export const experiencesConfig: Experience[] = [
     start: "November 2025",
     end: "December 2025",
    description: [
-"Developed a no-code AI platform for automated dataset preprocessing and ML model training",
-"Built a responsive web interface using Next.js, TypeScript, and Tailwind CSS",
-"Integrated FastAPI backend for exploratory data analysis and model optimization",
-"Tech: Next.js, TypeScript, React, FastAPI, Python, scikit-learn, Tailwind CSS, Chart.js"
-]
+"Building a custom frontend focused website to showcase the work done by the GemVeda",
+"Tech: Astro, TypeScript, Tailwind CSS"
+],
+status: "Ongoing"
   },
   {
     title: "Full Stack Developer",
@@ -36,7 +35,6 @@ export const experiencesConfig: Experience[] = [
 "Built a responsive web app for YuvaHR to connect IT professionals with companies",
 "Used React, Next.js, and Material-UI for the frontend, Express.js for the backend",
 "Tech: React, Next.js, Material-UI, Express.js, Nodemailer, Vercel"
-]
+],
   },
-  
 ];
