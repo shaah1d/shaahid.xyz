@@ -14,7 +14,7 @@ export const experiencesConfig: Experience[] = [
     start: "November 2025",
     end: "December 2025",
    description: [
-"Building a custom frontend focused website to showcase the work done by the GemVeda",
+"Building a custom frontend focused website to showcase the work done by GemVeda",
 "Tech: Astro, TypeScript, Tailwind CSS"
 ],
 status: "Ongoing"
@@ -23,7 +23,7 @@ status: "Ongoing"
     title: "Full Stack Developer",
     employmentType: "Freelance",
     company: {
-      name: "YuvaHR Services ",
+      name: "yuvahr Services ",
       url: "https://www.yuvahr.com/",
     },
     location: {
