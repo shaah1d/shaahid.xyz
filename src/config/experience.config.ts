@@ -14,8 +14,8 @@ export const experiencesConfig: Experience[] = [
     start: "November 2025",
     end: "December 2025",
    description: [
-"Made the entire brand design from logo and color pallette to all the micro interactions, animations to all the blogs.",
-"Connectd the form to send emails automatically and implemented SEO with page indexing",
+"Developed a comprehensive brand identity from logo and color pallette to all the micro interactions, animations, and blogs",
+"Integrated automated email workflows through connected forms and executed advanced SEO strategies with full page indexing for optimized discoverability and performance.",
 "Tech: Framer Motion, TypeScript, Tailwind CSS"
 ],
 
