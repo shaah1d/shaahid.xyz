@@ -25,7 +25,7 @@ export const experiencesConfig: Experience[] = [
     employmentType: "Freelance",
     company: {
       name: "Yuvahr",
-      url: "https://www.yuvahr.vercel.app",
+      url: "https://yuvahr.vercel.app",
     },
     location: {
       name: "Remote",
