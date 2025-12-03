@@ -16,7 +16,7 @@ export const experiencesConfig: Experience[] = [
    description: [
 "Developed a comprehensive brand identity from logo and color pallette to all the micro interactions, animations, and blogs",
 "Integrated automated email workflows through connected forms and executed advanced SEO strategies with full page indexing for optimized discoverability and performance.",
-"Tech: Framer Motion, TypeScript, Tailwind CSS"
+"Tech: Framer Motion, TypeScript,NextJS, Tailwind CSS"
 ],
 
   },
@@ -24,8 +24,8 @@ export const experiencesConfig: Experience[] = [
     title: "Full Stack Developer",
     employmentType: "Freelance",
     company: {
-      name: "yuvahr Services ",
-      url: "https://www.yuvahr.com/",
+      name: "Yuvahr",
+      url: "https://www.yuvahr.vercel.app",
     },
     location: {
       name: "Remote",
@@ -33,9 +33,8 @@ export const experiencesConfig: Experience[] = [
     start: "August 2024",
     end: "September 2024",
    description: [
-"Built a responsive web app for YuvaHR to connect IT professionals with companies",
-"Used React, Next.js, and Material-UI for the frontend, Express.js for the backend",
-"Tech: React, Next.js, Material-UI, Express.js, Nodemailer, Vercel"
+"Rebuilding with better animations (work in progress)",
+
 ],
   },
 ];
