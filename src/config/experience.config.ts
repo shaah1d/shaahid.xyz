@@ -2,7 +2,7 @@ import type { Experience } from "@/types";
 
 export const experiencesConfig: Experience[] = [
   {
-    title: "Web Developer",
+    title: "Brand Design & Development",
     employmentType: "Freelance",
     company: {
       name: "Gemveda",
@@ -14,10 +14,11 @@ export const experiencesConfig: Experience[] = [
     start: "November 2025",
     end: "December 2025",
    description: [
-"Building a custom frontend focused website to showcase the work done by GemVeda",
-"Tech: Astro, TypeScript, Tailwind CSS"
+"Made the entire brand design from logo and color pallette to all the micro interactions, animations to all the blogs.",
+"Connectd the form to send emails automatically and implemented SEO with page indexing",
+"Tech: Framer Motion, TypeScript, Tailwind CSS"
 ],
-status: "Ongoing"
+
   },
   {
     title: "Full Stack Developer",
