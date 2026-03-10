@@ -21,7 +21,7 @@ export const experiencesConfig: Experience[] = [
 
   },
   {
-    title: "Full Stack Developer",
+    title: "Design & Development",
     employmentType: "Freelance",
     company: {
       name: "Yuvahr",
@@ -30,10 +30,12 @@ export const experiencesConfig: Experience[] = [
     location: {
       name: "Remote",
     },
-    start: "August 2024",
-    end: "September 2024",
+    start: "January 2026",
+    end: "February 2026",
    description: [
-"Rebuilding with better animations (work in progress)",
+"Designed and developed a fully responsive recruitment platform with a modern scroll driven experience. Built custom animated UI components including a dynamic SVG preloader, scroll based storytelling sections, animated statistics, and smooth page transitions.",
+"Engineered the entire frontend architecture using component based patterns while implementing advanced motion systems with GSAP, Framer Motion, and Lenis for seamless interactions and fluid navigation across pages.",
+"Tech: NextJS, TypeScript, Tailwind CSS, GSAP, Framer Motion, Lenis"
 
 ],
   },
