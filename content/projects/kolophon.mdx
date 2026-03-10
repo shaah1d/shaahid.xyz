@@ -1,0 +1,142 @@
+---
+title: Kolophon - No-Code RAG Application Builder
+description: Kolophon is a no-code platform for building Retrieval-Augmented Generation (RAG) applications such as AI chatbots, voice assistants, and analytics dashboards using your own data.
+tags: ["Next.js", "LangChain", "Pinecone", "ElevenLabs", "Drizzle ORM", "PostgreSQL"]
+date: 2025-09-12
+image: "./assets/kolophon/thumbnail.png"
+imageDark: "./assets/kolophon/thumbnail.png"
+links:
+  [
+    { name: "GitHub", url: "https://github.com/shaah1d-manifest" },
+    { name: "Website", url: "https://manifestbyshaahid.vercel.app/" },
+    { name: "Twitter", url: "https://x.com/shaah1d" },
+    { name: "LinkedIn", url: "https://linkedin.com/in/shaahid141" }
+  ]
+---
+
+## What is Kolophon?
+
+<br />
+<video
+  controls
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full aspect-video"
+  poster="./assets/kolophon/thumbnail.png"
+>
+  <source src="https://res.cloudinary.com/dv6t6t4lp/video/upload/Manifestv0_-_Made_with_Clipchamp_mimvzt.mp4" />
+</video>
+
+## Introduction
+
+Kolophon is a **no-code platform for building Retrieval-Augmented Generation (RAG) applications** that allows anyone to create AI-powered chatbots, voice assistants, and analytics dashboards using their own data.
+
+Instead of writing complex backend pipelines, users can upload datasets, configure prompts, and instantly deploy an intelligent AI interface powered by modern large language models.
+
+The platform integrates **LangChain for RAG pipelines, Pinecone for vector search, Groq and Google GenAI for LLM inference, and ElevenLabs for voice synthesis**. Built using **Next.js App Router**, Kolophon provides a scalable architecture for deploying AI applications with minimal configuration.
+
+Users can create bots, embed them into websites, analyze interaction metrics, and manage datasets all within a single dashboard.
+
+## Features
+
+1. **No-Code RAG Builder**
+
+   - Upload documents or datasets.
+   - Automatically generate embeddings.
+   - Query data through AI-powered chat interfaces.
+
+2. **Multiple AI Interfaces**
+
+   - Chat-based conversational agents.
+   - Voice-enabled assistants with real-time recording and speech synthesis.
+   - Embeddable widgets for websites.
+
+3. **Dataset-Powered Intelligence**
+
+   - Uses vector embeddings stored in Pinecone.
+   - Retrieves relevant context before sending prompts to LLMs.
+   - Ensures answers are grounded in user-provided data.
+
+4. **Interactive Analytics Dashboard**
+
+   - Tracks bot interactions across daily, weekly, and monthly intervals.
+   - Visualized using Recharts charts.
+   - Helps measure engagement and usage patterns.
+
+5. **Embeddable AI Widgets**
+
+   - Chat and voice widgets can be embedded into external websites.
+   - Supports iframe-friendly routes for easy integration.
+
+6. **Authentication & User Management**
+
+   - Secure login using NextAuth.
+   - Supports providers like Google and GitHub.
+
+7. **Scalable Database Architecture**
+
+   - PostgreSQL database managed via Drizzle ORM.
+   - Stores users, projects, and analytics data.
+
+8. **Modern UI System**
+   - Built with Tailwind CSS and Shadcn/UI components.
+   - Smooth interactions powered by Lenis scrolling.
+   - Modular component-based architecture.
+
+#### User Workflow
+
+1. Users sign in using their preferred authentication provider.
+2. A new AI project (bot) is created through the dashboard.
+3. Users upload datasets that are converted into embeddings.
+4. Kolophon stores vectors in Pinecone for semantic retrieval.
+5. When a query is sent to the bot:
+   - Relevant documents are retrieved.
+   - Context is passed to the LLM through LangChain.
+6. The AI returns a grounded response based on the uploaded data.
+7. User interactions are logged and visualized in the analytics dashboard.
+8. The bot can be embedded into external websites via chat or voice widgets.
+
+#### Tech Stack
+
+- **Next.js 15 (App Router)**: Full-stack framework for frontend and backend routes.
+- **React 19**: UI framework for building interactive interfaces.
+- **LangChain**: RAG orchestration and LLM pipelines.
+- **Groq / Google GenAI**: LLM inference providers.
+- **Pinecone**: Vector database for semantic search.
+- **ElevenLabs**: Text-to-speech and voice interaction.
+- **PostgreSQL**: Primary database.
+- **Drizzle ORM**: Type-safe database access layer.
+- **NextAuth**: Authentication and session management.
+- **Tailwind CSS + Shadcn UI**: Component-driven design system.
+- **Recharts**: Data visualization for analytics.
+
+## Open Source and Transparent
+
+Kolophon is designed as an **open and extensible platform** for building AI-powered applications. Developers can inspect the architecture, extend RAG pipelines, integrate new LLM providers, or customize the frontend experience.
+
+The modular architecture ensures each part of the system (dataset ingestion, embeddings, querying, analytics, and embedding widgets) can be extended independently.
+
+The project architecture follows the **Next.js App Router pattern with API routes handling backend logic**, making it suitable for scalable AI SaaS deployments. :contentReference[oaicite:0]{index=0}
+
+## How it Works
+
+If you want to explore the implementation details, start with these key areas of the codebase:
+
+- `/api/bot/query` — main RAG query endpoint
+- `/api/bot/create` — project creation logic
+- `/api/bot/analytics` — analytics data retrieval
+- `/embed/` — embeddable chat and voice widgets
+- `/src/components/` — reusable UI components
+
+These files demonstrate how Kolophon connects dataset embeddings, LLM inference, and analytics tracking into a unified platform.
+
+Visit the GitHub repository to explore the full implementation, contribute improvements, or build your own AI applications on top of the platform.
+
+## Stay Connected
+
+Follow me for updates on this project and other AI applications:
+
+- X: [@shaah1d](https://x.com/shaah1d)
+- LinkedIn: [shaah1d](https://linkedin.com/in/shaahid141)
